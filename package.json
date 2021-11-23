@@ -3,8 +3,29 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+    "dev": "nodemon server.js",
+    "start":"node server.js",
+    "sass": "sass --watch ./ppublic/sass/main.scss:./ppublic/public/css/style.css"
+
+
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ziratsu/YT-Github-Video.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Ziratsu/YT-Github-Video/issues"
+  },
+  "homepage": "https://github.com/Ziratsu/YT-Github-Video#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
